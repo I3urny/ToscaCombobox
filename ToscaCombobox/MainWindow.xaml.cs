@@ -20,15 +20,13 @@ namespace ToscaCombobox
             {
                 mvm2.Firmen = new ObservableCollection<Firma>
                 {
-                    new Firma {Name = "PALFINGER"},
-                    new Firma {Name = "Qualysoft"},
+                    new Firma {Name = $"PALFINGER{Counter}"},
+                    new Firma {Name = $"Qualysoft{Counter}"},
                 };
                 Counter++;
 
                 mvm2.SelectedFirma = mvm2.Firmen[1];
             }
-
-            cmbFirmen.UpdateLayout();
         }
     }
 }
