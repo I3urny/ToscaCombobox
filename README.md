@@ -1,5 +1,9 @@
 # Tosca 15.0 Combobox Bug
 
+## Fixed in Tosca 15.0 Patch 2
+This bug has been fixed in Tosca 15.0 Patch 2. Here's a link to the [Patch Notes](https://documentation.tricentis.com/tosca/1500/en/content/resources/webhelp/patch_notes_testsuite.htm#Resolvedissues).  
+The fix is listed as TBOX-14035.
+
 ## Expected behaviour
 After a Combobox has its ItemsSource changed and I scan the application with Tosca 15.0, the DefaultName of each ComboboxItem is set according to its underlying TextBlock.Text property. 
 
